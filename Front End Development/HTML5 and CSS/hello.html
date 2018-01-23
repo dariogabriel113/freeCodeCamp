@@ -1,9 +1,7 @@
-<!-- Your page should have two radio button elements. -->
-<!-- Give your radio buttons the name attribute of indoor-outdoor. -->
-<!-- Each of your two radio button elements should be nested in its own label element. -->
-<!-- Make sure each of your label elements has a closing tag. -->
-<!-- One of your radio buttons should have the label indoor. -->
-<!-- One of your radio buttons should have the label outdoor. -->
+<!-- Your page should have three checkbox elements. -->
+<!-- Each of your three checkbox elements should be nested in its own label element. -->
+<!-- OK - Make sure each of your label elements has a closing tag. -->
+<!-- Give your checkboxes the name attribute of personality. -->
 
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -55,9 +53,9 @@
 </ol>
 
 <form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+
   <input type="text" placeholder="cat photo URL" required>
   <button type="submit">Submit</button>
 </form>
-
-<label><input type="radio" name="indoor-outdoor"> Indoor</label>
-<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
